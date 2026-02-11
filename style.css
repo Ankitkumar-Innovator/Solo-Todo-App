@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #3b3d3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Changed from 70vh for better centering */
+}
+
+.container {
+    background-color: #666262;
+    padding: 30px;
+    border-radius: 12px;
+    width : 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(252, 251, 253, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1; /* Makes input take up remaining space */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+#add-task-btn {
+    background-color: #5fc39d;
+    color: white;
+    padding: 0 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#add-task-btn:hover {
+    background-color: #48a380;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #eee;
+}
+
+/* Container for checkbox and text */
+.task-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.delete-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for completed tasks */
+li.completed span {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
