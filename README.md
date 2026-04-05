@@ -7,25 +7,25 @@ Designed to manage daily tasks efficiently with persistent storage.
 
 This project was built to strengthen fundamentals of:
 
-# DOM manipulationEvent handling
-# Local storage
-# UI state management
+* DOM manipulationEvent handling
+* Local storage
+* UI state management
 
 Instead of using frameworks, the focus was on core JavaScript concepts.
 
 🛠 Tech Stack
-# HTML5
-# CSS3
-# JavaScript (Vanilla)
-# Local Storage API
+* HTML5
+* CSS3
+* JavaScript (Vanilla)
+* Local Storage API
 
 ✨ Features
-# Add new tasks
-# Mark tasks as completed
-# Delete tasks
-# Persistent data using localStorage
-# Clean and minimal UI
-# Instant UI updates
+* Add new tasks
+* Mark tasks as completed
+* Delete tasks
+* Persistent data using localStorage
+* Clean and minimal UI
+* Instant UI updates
 
 🧠 Key Concepts Learned
 1️⃣ DOM Manipulation
@@ -60,12 +60,12 @@ Open index.html in your browser
 No setup required.
 
 🎯 Future Improvements
-# Edit existing tasks
-# Add due dates
-# Filter (Completed / Pending)
-# Drag & drop reordering
-# Dark mode
-# Backend integration
+* Edit existing tasks
+* Add due dates
+* Filter (Completed / Pending)
+* Drag & drop reordering
+* Dark mode
+* Backend integration
 
 💭 Reflection
 -This project focuses on fundamentals rather than complexity.
