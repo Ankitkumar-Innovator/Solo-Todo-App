@@ -71,6 +71,6 @@ No setup required.
 -This project focuses on fundamentals rather than complexity.
 
 Building small apps like this helps in:
-# Strengthening JavaScript basics
-# Understanding how UI reacts to state changes
-# Writing clean and maintainable code
+* Strengthening JavaScript basics
+* Understanding how UI reacts to state changes
+* Writing clean and maintainable code
